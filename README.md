@@ -13,5 +13,5 @@ Docker automated build for Oxford Nanopore Albacore offline basecalling software
 ## Usage
 
 1. Start Docker
-2.```$docker run <your-image> <basecaller.py> <options-see-albacore-documentation-ont>```
+2. ```$docker run <your-image> <basecaller.py> <options-see-albacore-documentation-ont>```
 3. Analyse basecalled data!
