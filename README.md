@@ -8,17 +8,17 @@ Docker automated build for Oxford Nanopore Albacore offline basecalling software
 3. Save Dockerfile to your directory
 4. Edit Dockerfile with up-to-date Albacore software and links
  ```
- RUN wget <https://link-to-albacore.deb>
+ RUN wget <https://link-to-albacore-version.deb>
  ```
  and
  ```
- RUN dpkg -i <albacore.deb>
+ RUN dpkg -i <albacore-version.deb>
  ``` 
  
 5. ```$ cd to/your/directory```
 6. ```$ docker build -t <name-your-image> .```
 
-## albacore_basecalling.sh Usage
+## Basecalling with albacore_basecalling.sh
 
 1. Start Docker
 2. Arrange your your raw, uncalled fast5 nanopore read data as follows
