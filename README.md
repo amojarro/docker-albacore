@@ -24,7 +24,10 @@ Docker automated build for Oxford Nanopore Albacore offline basecalling software
  Sample="$DataFolder/your_sample_name"
  ``` 
     
-4. Insert your Docker image ```Container="your-image"```
+4. Insert your Docker image 
+ ```
+ Container="your-image"
+ ```
     
 5. Edit the number of threads and kit
  ```
