@@ -14,10 +14,10 @@ python3-numpy \
 wget 
 
 # Download Albacore
-RUN wget <https://link-to-albacore.deb>
+RUN wget <https://link-to-albacore-version.deb>
 
 # Install Albacore
-RUN dpkg -i <albacore.deb>
+RUN dpkg -i <albacore-version.deb>
 
 # Repair python3 after Albacore Installation 
 # Uncheck below if you receive ImportError: No module named 'pkg_resources'
