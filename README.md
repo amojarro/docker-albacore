@@ -13,20 +13,17 @@ Docker automated build for Oxford Nanopore Albacore offline basecalling software
 ## Usage
 
 1. Start Docker
-2. Arrange your data as follows;
-    ```~/usr/data/your_sample_name/raw``` # your raw, uncalled fast5 nanopore reads
+2. Arrange your data as follows:
+    ```~/usr/data/your_sample_name/raw``` your raw, uncalled fast5 nanopore reads
     
 3. Edit the albacore_basecaller.sh tp mirror your directory
     ```DataFolder="~/data/"```
     ```Sample="$DataFolder/your_sample_name"```
     
-4. Insert your Docker image
-    ```Container="your-image"```
+4. Insert your Docker image ```Container="your-image"```
     
-5. Edit the number of threads and kit
-    ```Cmd="$DockerOptions read_fast5_basecaller.py -i $DockerPath/raw -s $DockerPath/basecalled -t <# of threads> -c <you-kit>"```
+5. Edit the number of threads and kit ```Cmd="$DockerOptions read_fast5_basecaller.py -i $DockerPath/raw -s $DockerPath/basecalled -t <# of threads> -c <you-kit>"```
     
-6. Run the scripts
-    ```./albacore_basecaller.sh```
+6. Run the scripts ```./albacore_basecaller.sh```
     
-5. Analyse basecalled data!
+7. Analyse basecalled data!
