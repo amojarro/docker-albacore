@@ -1,8 +1,12 @@
 #!/bin/bash
 
 # albacore_basecalling.sh
-DataFolder="/usr/data/your_sample_name/raw"
-Sample="$DataFolder/your_sample_name"
+DataFolder="/usr/data"
+Sample="$DataFolder/your_sample_name" 
+
+# Place "your_sample_name" folder in "data" folder
+# place "raw" folder in "your_sample_name" folder
+# Place raw, uncalled fast5 nanopore reads in "raw" folder 
 
 # Make Output Directory
 mkdir -p "$Sample/basecalled" # For Basecalled Files  
