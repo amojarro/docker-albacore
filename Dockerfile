@@ -19,5 +19,6 @@ RUN wget <https://link-to-albacore.deb>
 # Install Albacore
 RUN dpkg -i <albacore.deb>
 
-# Repair python3 after Albacore Installation ImportError: No module named 'pkg_resources'
-RUN apt-get install --reinstall python3-pkg-resources
+# Repair python3 after Albacore Installation 
+# Uncheck below if you receive ImportError: No module named 'pkg_resources'
+# RUN apt-get install --reinstall python3-pkg-resources
