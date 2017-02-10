@@ -7,6 +7,14 @@ Docker automated build for Oxford Nanopore Albacore offline basecalling software
 2. Start Docker
 3. Save Dockerfile to your directory
 4. Edit Dockerfile with up-to-date Albacore software and links
+ ```
+ RUN wget <https://link-to-albacore.deb>
+ ```
+ and
+ ```
+ RUN dpkg -i <albacore.deb>
+ ``` 
+ 
 5. ```$ cd to/your/directory```
 6. ```$ docker build -t <name-your-image> .```
 
