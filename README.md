@@ -35,4 +35,4 @@ Docker automated build for Oxford Nanopore Albacore offline basecalling software
  $ ./albacore_basecaller.sh
  ```
  
- 7. Analyse basecalled data!
+7. Analyse basecalled data!
