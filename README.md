@@ -16,8 +16,9 @@ Docker automated build for Oxford Nanopore Albacore offline basecalling software
 2. Arrange your data as follows:
     ```~/usr/data/your_sample_name/raw``` your raw, uncalled fast5 nanopore reads
     
-3. Edit the albacore_basecaller.sh tp mirror your directory
+3. Edit the albacore_basecaller.sh to mirror your directory
     ```DataFolder="~/data/"```
+    
     ```Sample="$DataFolder/your_sample_name"```
     
 4. Insert your Docker image ```Container="your-image"```
